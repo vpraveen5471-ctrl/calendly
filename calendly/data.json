@@ -1,0 +1,231 @@
+{
+  "user": {
+    "name": "Emma Jackson",
+    "email": "emma@schedulepro.com",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80"
+  },
+  "eventTypes": [
+    {
+      "id": "strategist-session",
+      "name": "Strategist Session",
+      "description": "Free 30 minute one-on-one session for new prospects.",
+      "duration": 30,
+      "location": "Google Meet",
+      "slug": "strategist-session",
+      "color": "teal",
+      "active": true
+    },
+    {
+      "id": "discovery-call",
+      "name": "Discovery Call",
+      "description": "Quick qualification call to understand needs and next steps.",
+      "duration": 15,
+      "location": "Google Meet",
+      "slug": "discovery-call",
+      "color": "blue",
+      "active": true
+    },
+    {
+      "id": "strategy-review",
+      "name": "Strategy Review",
+      "description": "Longer planning session for existing clients and warm leads.",
+      "duration": 60,
+      "location": "Google Meet",
+      "slug": "strategy-review",
+      "color": "violet",
+      "active": true
+    },
+    {
+      "id": "event-9673cb9a-ec68-4690-a561-9907afa645cc",
+      "name": "6",
+      "description": "Free call to discuss goals and next steps.",
+      "duration": 30,
+      "location": "Google Meet",
+      "slug": "6",
+      "color": "green",
+      "active": false
+    }
+  ],
+  "availability": {
+    "0": {
+      "available": false,
+      "ranges": []
+    },
+    "1": {
+      "available": true,
+      "ranges": [
+        {
+          "start": "09:00",
+          "end": "17:00"
+        }
+      ]
+    },
+    "2": {
+      "available": false,
+      "ranges": []
+    },
+    "3": {
+      "available": true,
+      "ranges": [
+        {
+          "start": "10:00",
+          "end": "16:00"
+        }
+      ]
+    },
+    "4": {
+      "available": true,
+      "ranges": [
+        {
+          "start": "09:00",
+          "end": "17:00"
+        }
+      ]
+    },
+    "5": {
+      "available": true,
+      "ranges": [
+        {
+          "start": "09:00",
+          "end": "14:00"
+        }
+      ]
+    },
+    "6": {
+      "available": false,
+      "ranges": []
+    }
+  },
+  "unavailableTimes": [],
+  "bookings": [
+    {
+      "id": "booking-1",
+      "guestName": "James Smith",
+      "guestEmail": "james@example.com",
+      "eventTypeId": "strategist-session",
+      "date": "2026-06-12",
+      "time": "10:00",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "upcoming",
+      "meetingLink": "Google Meet",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80"
+    },
+    {
+      "id": "booking-2",
+      "guestName": "Sarah Johnson",
+      "guestEmail": "sarah@example.com",
+      "eventTypeId": "discovery-call",
+      "date": "2026-06-12",
+      "time": "13:00",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "upcoming",
+      "meetingLink": "Google Meet",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80"
+    },
+    {
+      "id": "booking-3",
+      "guestName": "Michael Brown",
+      "guestEmail": "michael@example.com",
+      "eventTypeId": "strategy-review",
+      "date": "2026-06-15",
+      "time": "09:30",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "upcoming",
+      "meetingLink": "Google Meet",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=80&q=80"
+    },
+    {
+      "id": "booking-4",
+      "guestName": "Ava Patel",
+      "guestEmail": "ava@example.com",
+      "eventTypeId": "strategist-session",
+      "date": "2026-06-19",
+      "time": "15:00",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "canceled",
+      "stateLabel": "Canceled",
+      "meetingLink": "Google Meet"
+    },
+    {
+      "id": "booking-5",
+      "guestName": "Noah Williams",
+      "guestEmail": "noah@example.com",
+      "eventTypeId": "strategist-session",
+      "date": "2026-05-30",
+      "time": "11:00",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "past",
+      "stateLabel": "Completed",
+      "meetingLink": "Google Meet"
+    },
+    {
+      "id": "booking-6",
+      "guestName": "Mia Chen",
+      "guestEmail": "mia@example.com",
+      "eventTypeId": "discovery-call",
+      "date": "2026-05-28",
+      "time": "14:00",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "past",
+      "stateLabel": "Completed",
+      "meetingLink": "Google Meet"
+    },
+    {
+      "id": "booking-7",
+      "guestName": "Olivia Martin",
+      "guestEmail": "olivia@example.com",
+      "eventTypeId": "strategist-session",
+      "date": "2026-06-03",
+      "time": "16:00",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "canceled",
+      "stateLabel": "Canceled",
+      "meetingLink": "Google Meet"
+    },
+    {
+      "id": "booking-e5f1f50f-052f-479b-b787-b50e4db1f104",
+      "guestName": "jashwanth",
+      "guestEmail": "jashwanth@gmail.com",
+      "guestPhone": "",
+      "notes": "",
+      "eventTypeId": "strategist-session",
+      "date": "2026-06-08",
+      "time": "10:30",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "canceled",
+      "stateLabel": "Canceled",
+      "meetingLink": "Google Meet",
+      "createdAt": "2026-06-06T10:49:42.781Z"
+    },
+    {
+      "id": "booking-26811417-0ede-4459-b590-6703af0db96a",
+      "guestName": "zNKLC",
+      "guestEmail": "zxc",
+      "guestPhone": "42",
+      "notes": "",
+      "eventTypeId": "strategist-session",
+      "date": "2026-06-12",
+      "time": "09:00",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "upcoming",
+      "stateLabel": "Confirmed",
+      "meetingLink": "Google Meet",
+      "createdAt": "2026-06-13T09:37:08.059Z"
+    },
+    {
+      "id": "booking-44e67d21-958f-40a8-a9dc-a2c51ce0064e",
+      "guestName": "pasd",
+      "guestEmail": "asmdas",
+      "guestPhone": "",
+      "notes": "",
+      "eventTypeId": "strategist-session",
+      "date": "2026-06-12",
+      "time": "09:30",
+      "timezone": "(GMT+05:30) India Standard Time",
+      "status": "canceled",
+      "stateLabel": "Canceled",
+      "meetingLink": "Google Meet",
+      "createdAt": "2026-06-30T13:30:19.246Z"
+    }
+  ]
+}
